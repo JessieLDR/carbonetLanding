@@ -3,6 +3,6 @@ import ReactPlayer from 'react-player'
 export const Demo = (props) => {
     return (
         <div id='services' className='text-center'>
-        <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' />
+        <ReactPlayer url='https://youtu.be/N_SbEswAa8A' />
         </div>
 )}
