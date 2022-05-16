@@ -6,6 +6,7 @@ body, html {
 	font-weight: 400;
 	width: 100% !important;
 	height: 100% !important;
+	background-color: #f6f6f6 !important;
 }
 #logo {
 	width:175px;
@@ -110,7 +111,7 @@ hr {
 	bottom: -0.5px;
 	width: 0;
 	height: 2px;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: #CDCDCD;
 	content: "";
 	transition: width 0.2s;
 }
@@ -127,7 +128,7 @@ hr {
 	bottom: -1px !important;
 	width: 100% !important;
 	height: 2px !important;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+	background: #CDCDCD !important;
 	content: "" !important;
 	transition: width 0.2s !important;
 }
@@ -143,6 +144,7 @@ hr {
 }
 .section-title {
 	margin-bottom: 70px;
+
 }
 .section-title h2 {
 	position: relative;
@@ -150,11 +152,12 @@ hr {
 	margin-top: 10px;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
+	font-weight: 600;
 }
 .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background: #CDCDCD;
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -168,7 +171,6 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	color: #fff;
 	background-color: #7C8C64;
-	padding: 14px 34px;
 	letter-spacing: 1px;
 	margin: 0;
 	font-size: 15px;
@@ -176,10 +178,8 @@ hr {
 	border-radius: 25px;
 	transition: all 0.5s linear;
 	border: 0;
-	padding-top: 0.5rem;
-	padding-top: 0.5rem;
 	width: 230px;
-	line-height: 20px !important;
+	line-height: 24px !important;
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: #fff;
@@ -199,7 +199,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .btn-demo {
 	font-family: 'Raleway', sans-serif;
 	color: #7C8C64;
-	padding: 14px 34px;
 	letter-spacing: 1px;
 	margin: 0;
 	font-size: 15px;
@@ -208,8 +207,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	transition: all 0.5s linear;
 	border: 1.5px solid #7C8C64;
 	margin-left: 1rem;
-	padding-top: 0.2rem;
-	padding-top: 0.2rem;
 	width: 230px;
 }
 .btn-demo:hover, .btn-demo:focus, .btn-demo.focus, .btn-demo:active, .btn-demo.active {
@@ -288,9 +285,66 @@ header .graph {
 	height: 100px;
 	padding: 30px 0;
 	border-radius: 50%;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: #CDCDCD;
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
+#process {
+	margin-top: -13rem;
+	width:1200px;
+	height: 600px;
+}
+
+
+/* Demo Section */
+#demo {
+	padding: 100px 0;
+    color: #fff;
+    display: flex;
+	}
+#demo .service-desc {
+	margin: 10px 10px 20px;
+}
+#demo h2 {
+	color: #83765F;
+}
+/* #demo .section-title h2::after {
+	position: absolute;
+	content: "";
+	height: 4px;
+	width: 60px;
+	bottom: 0;
+	margin-left: -30px;
+	left: 50%;
+} */
+#demo i.fa {
+	font-size: 42px;
+	width: 120px;
+	height: 120px;
+	padding: 40px 0;
+	background: #CDCDCD;
+	border-radius: 50%;
+	color: #fff;
+	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
+}
+#demo h3 {
+	font-weight: 500;
+	padding: 5px 0;
+	color: #fff;
+}
+#demo p {
+	color: rgba(255,255,255,.75);
+}
+#demo .service-desc {
+	margin-bottom: 40px;
+}
+#demo .video {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	margin-bottom: 20rem;
+}
+
 /* About Section */
 #about {
 	padding: 100px 0;
@@ -307,7 +361,7 @@ header .graph {
 #about h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background: #CDCDCD;
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -338,52 +392,6 @@ header .graph {
 	line-height: 24px;
 	margin: 30px 0;
 }
-/* Services Section */
-#services {
-	padding: 100px 0;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-}
-#services .service-desc {
-	margin: 10px 10px 20px;
-}
-#services h2 {
-	color: #fff;
-}
-#services .section-title h2::after {
-	position: absolute;
-	content: "";
-	background: rgba(255,255,255,.3);
-	height: 4px;
-	width: 60px;
-	bottom: 0;
-	margin-left: -30px;
-	left: 50%;
-}
-#services i.fa {
-	font-size: 42px;
-	width: 120px;
-	height: 120px;
-	padding: 40px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-	border-radius: 50%;
-	color: #fff;
-	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
-}
-#services h3 {
-	font-weight: 500;
-	padding: 5px 0;
-	color: #fff;
-}
-#services p {
-	color: rgba(255,255,255,.75);
-}
-#services .service-desc {
-	margin-bottom: 40px;
-}
 /* Portfolio Section */
 #portfolio {
 	padding: 100px 0;
@@ -402,7 +410,7 @@ header .graph {
 	text-align: center;
 	margin: 0 auto;
 	color: #fff;
-	background: linear-gradient(to right, rgba(99,114,255,0.8) 0%, rgba(92,169,251,0.8) 100%);
+	background: #CDCDCD;
 	padding: 30% 0 0 0;
 	height: 100%;
 	width: 100%;
@@ -468,9 +476,16 @@ header .graph {
 	font-weight: 600;
 	color: #666;
 }
+/* Demo Video */
+#demo {
+	margin-top: 20px;
+	margin-left: -50px;
+	padding 100px 0;
+}
 /* Team Section */
+
 #team {
-	padding: 100px 0;
+	margin-bottom: 10rem;
 }
 #team h4 {
 	margin: 5px 0;
@@ -489,7 +504,7 @@ header .graph {
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: #CDCDCD;
 	color: rgba(255,255,255,.75);
 }
 #contact .section-title {
