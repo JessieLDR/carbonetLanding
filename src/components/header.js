@@ -17,8 +17,9 @@ export const Header = (props) => {
                   </h1>
                   <p>{props.data ? props.data.paragraph : 'Loading'}</p>
                   <a
-                    href='#features'
+                    // href='#features'
                     className='btn btn-custom btn-lg page-scroll'
+                    onClick={window.location.href = 'http://localhost:3000/'}
                   >
                     Start Now
                   </a>{' '}
