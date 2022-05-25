@@ -1,6 +1,5 @@
-import process from "../Process.png"
-
 export const Features = (props) => {
+
   return (
     <div id='features' className='text-center'>
       <div className='container'>
@@ -8,7 +7,7 @@ export const Features = (props) => {
           <h2>How it Works</h2>
         </div>
         <div className='row'>
-        <div className="process"><img src={process} id='process'/></div>
+        <div className="process"><img src={props.img_data.img} id='process'/></div>
           {/* {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.title}-${i}`} className='col-xs-6 col-md-3'>

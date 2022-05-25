@@ -109,5 +109,8 @@
     ],
     "Footer":{
         "img": "img/iSchoolPrimary_RGB_Purple.jpg"
+    },
+    "Process":{
+        "img": "img/Process.png"
     }
 }
