@@ -6,52 +6,26 @@
 
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "As of 2021, the carbon emission rate has reached the second highest rate in history. The environmental problem is becoming more serious since the world is creating more emission while trying to recover from the pandamic. At the same time, there are about 25% of US households are interested in gardenings but many of them have no ideas on how to start.",
         "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
-        ],
-        "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
+            "The Carbonet provides a solution for gardeners to track progress of their plants and find their community. Gardeners can find intructions on taking care of their plants and share their gardens with their friends. Whether you want to get some tips kicking start your home garden or find garderners who share the same passion, Carbonet is here to help. Ultimately, we believe by bringing in the contribution from each gardener, we can create significant impact on protecting our planet Earth,"
         ]
     },
     "Services": [{
-            "icon": "fa fa-wordpress",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "img": "img/testimonials/track.jpg",
+            "name": "Track and Interpret",
+            "text": "Users can track and understand their carbon footprint"
         },
         {
-            "icon": "fa fa-cart-arrow-down",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "img": "img/testimonials/Learn.jpg",
+            "name": "Learn",
+            "text": "Users can learn about carbon footprint and how it relates to home gardening"
         },
         {
-            "icon": "fa fa-cloud-download",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-language",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-plane",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-pie-chart",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "img": "img/testimonials/Connect.jpg",
+            "name": "Connect",
+            "text": "Users can communicate and connect with people of shared interests"
         }
-
-
     ],
     "Testimonials": [{
             "img": "img/testimonials/01.jpg",
@@ -87,21 +61,25 @@
     "Team": [{
             "img": "img/team/Helen.png",
             "name": "Helen Zhao",
-            "job": "UX Designer"
+            "job": "UX Designer",
+            "email": "hzhao4@uw.edu"
         },
         {
             "img": "img/team/Alec.png",
             "name": "Alec Gao",
-            "job": "UX Designer"
+            "job": "UX Designer",
+            "email": "lgao2@uw.edu"
         }, {
             "img": "img/team/Yudong.png",
             "name": "Yudong Li",
-            "job": "Developer"
+            "job": "Developer",
+            "email": "yudonl@uw.edu"
         },
         {
             "img": "img/team/Jessica.png",
             "name": "Jessica Liu",
-            "job": "Developer"
+            "job": "Developer",
+            "email": "deronl@uw.edu"
         }
     ],
     "Contact": {
