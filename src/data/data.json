@@ -69,7 +69,8 @@
             "name": "Alec Gao",
             "job": "UX Designer",
             "email": "lgao2@uw.edu"
-        }, {
+        }, 
+        {
             "img": "img/team/Yudong.png",
             "name": "Yudong Li",
             "job": "Developer",
@@ -105,5 +106,8 @@
             "title": "Reduce Your Emissions",
             "text": "Understand your personal carbon footprint reduction and contribute to global sustainability development"
         }
-    ]
+    ],
+    "Footer":{
+        "img": "img/iSchoolPrimary_RGB_Purple.jpg"
+    }
 }
