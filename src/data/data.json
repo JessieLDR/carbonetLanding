@@ -131,5 +131,8 @@
             "title": "Reduce Your Emissions",
             "text": "Understand your personal carbon footprint reduction and contribute to global sustainability development"
         }
-    ]
+    ],
+    "Footer":{
+        "img": "img/iSchoolPrimary_RGB_Purple.jpg"
+    }
 }

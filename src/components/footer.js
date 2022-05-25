@@ -1,5 +1,5 @@
 export const Footer = (props) => {
-  
+  console.log(props.data)
   return (
     <div>
       <div id='footer'>
@@ -7,7 +7,7 @@ export const Footer = (props) => {
           {/* <p>
             &copy; 2022 created by Jessica Liu
           </p> */}
-          <img src="src/components/iSchoolPrimary_RGB_Purple.jpg"></img>
+          <img src={props.data.img}></img>
         </div>
       </div>
     </div>

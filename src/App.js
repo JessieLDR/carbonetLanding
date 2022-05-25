@@ -25,7 +25,7 @@ const App = () => {
       <Features data={landingPageData.Features} />
       <Demo/>
       <Team data={landingPageData.Team} />
-      <Footer />
+      <Footer data={landingPageData.Footer}/>
     </div>
   )
 }
