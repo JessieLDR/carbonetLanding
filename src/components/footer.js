@@ -4,9 +4,10 @@ export const Footer = (props) => {
     <div>
       <div id='footer'>
         <div className='container text-center'>
-          <p>
+          {/* <p>
             &copy; 2022 created by Jessica Liu
-          </p>
+          </p> */}
+          <img src="src/components/iSchoolPrimary_RGB_Purple.jpg"></img>
         </div>
       </div>
     </div>

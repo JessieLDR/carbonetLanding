@@ -87,21 +87,25 @@
     "Team": [{
             "img": "img/team/Helen.png",
             "name": "Helen Zhao",
-            "job": "UX Designer"
+            "job": "UX Designer",
+            "contact": "hzhao4@uw.edu"
         },
         {
             "img": "img/team/Alec.png",
             "name": "Alec Gao",
-            "job": "UX Designer"
+            "job": "UX Designer",
+            "contact": "lgao2@uw.edu"
         }, {
             "img": "img/team/Yudong.png",
             "name": "Yudong Li",
-            "job": "Developer"
+            "job": "Developer",
+            "contact": "yudonl@uw.edu"
         },
         {
             "img": "img/team/Jessica.png",
             "name": "Jessica Liu",
-            "job": "Developer"
+            "job": "Developer",
+            "contact": "deronl@uw.edu"
         }
     ],
     "Contact": {
